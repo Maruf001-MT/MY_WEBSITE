@@ -1,10 +1,7 @@
-/* Generated on: Wed Mar 08 2023 23:01:31 GMT+0000 (Coordinated Universal Time) */
-
-/* ==========================================================================
-   normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
-   ========================================================================== */
-
-/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+:root{
+    --primary: #2ff1ff;
+    --second: #d3feff;
+}
 
 html {
     font-family: sans-serif;
@@ -4841,8 +4838,8 @@ blockquote {
     margin-top: 60px;
     margin-bottom: 60px;
     padding: 45px 60px;
-    border-top: 1px none #83f570;
-    border-bottom: 1px none #83f570;
+    border-top: 1px none var(--primary);
+    border-bottom: 1px none var(--primary);
     border-left: 5px none #e2e2e2;
     background-image: url("https://assets.website-files.com/63c93fa82477dd4783518a35/63db8ae06ed8915582da1830_Qoute%20Icon%2002.svg"), url("https://assets.website-files.com/63c93fa82477dd4783518a35/63db8ae06ed8915582da1830_Qoute%20Icon%2002.svg");
     background-position: 100% 100%, 0px 0px;
@@ -5006,7 +5003,7 @@ figcaption {
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
-    color: #83f570;
+    color: var(--primary);
 }
 
 .button.big {
@@ -5262,7 +5259,7 @@ figcaption {
 .success-message {
     padding: 24px 33px;
     border-radius: 0px;
-    background-color: #83f570;
+    background-color: var(--primary);
     box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
     color: #000;
     font-size: 24px;
@@ -5561,15 +5558,15 @@ figcaption {
 }
 
 .sg---color-black.yellow {
-    background-color: #fffad3;
+    background-color: var(--second);
 }
 
 .sg---color-black.green {
-    background-color: #83f570;
+    background-color: var(--primary);
 }
 
 .paragraph-yellow {
-    color: #fffad3;
+    color: var(--second);
     font-size: 20px;
     line-height: 1.5;
 }
@@ -5910,7 +5907,7 @@ figcaption {
 }
 
 .nav-link-text-holder.w--current {
-    color: #83f570;
+    color: var(--primary);
 }
 
 .brand {
@@ -6190,7 +6187,7 @@ figcaption {
 .display-1 {
     position: relative;
     z-index: 2;
-    color: #fffad3;
+    color: var(--second);
     font-size: 250px;
 }
 
@@ -6200,7 +6197,7 @@ figcaption {
     -webkit-transform: translate3d(0px, 0px, -20px);
     transform: translate3d(0px, 0px, -20px);
     color: #000;
-    text-shadow: 0 -1px 0 #83f570, -1px 0 0 #83f570, 0 1px 0 #83f570, 1px 0 0 #83f570;
+    text-shadow: 0 -1px 0 var(--primary), -1px 0 0 var(--primary), 0 1px 0 var(--primary), 1px 0 0 var(--primary);
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
 }
@@ -6211,7 +6208,7 @@ figcaption {
     -webkit-transform: translate3d(0px, 0px, -40px);
     transform: translate3d(0px, 0px, -40px);
     color: #000;
-    text-shadow: 0 -1px 0 #83f570, -1px 0 0 #83f570, 0 1px 0 #83f570, 1px 0 0 #83f570;
+    text-shadow: 0 -1px 0 var(--primary), -1px 0 0 var(--primary), 0 1px 0 var(--primary), 1px 0 0 var(--primary);
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
 }
@@ -6223,13 +6220,13 @@ figcaption {
     -webkit-transform: translate3d(0px, 0px, -60px);
     transform: translate3d(0px, 0px, -60px);
     color: #000;
-    text-shadow: 0 -1px 0 #83f570, -1px 0 0 #83f570, 0 1px 0 #83f570, 1px 0 0 #83f570;
+    text-shadow: 0 -1px 0 var(--primary), -1px 0 0 var(--primary), 0 1px 0 var(--primary), 1px 0 0 var(--primary);
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
 }
 
 .display-2 {
-    color: #fffad3;
+    color: var(--second);
     font-size: 132px;
     line-height: 1;
 }
@@ -6390,7 +6387,7 @@ figcaption {
     align-items: flex-start;
     grid-row-gap: 24px;
     border-radius: 45px;
-    background-color: #fffad3;
+    background-color: var(--second);
 }
 
 .about-me-text {
@@ -6433,11 +6430,11 @@ figcaption {
 
 .stroke {
     color: #000;
-    text-shadow: 1px 0 0 #fffad3, -1px 0 0 #fffad3, 0 -1px 0 #fffad3, 0 1px 0 #fffad3;
+    text-shadow: 1px 0 0 var(--second), -1px 0 0 var(--second), 0 -1px 0 var(--second), 0 1px 0 var(--second);
 }
 
 .yello-text {
-    color: #fffad3;
+    color: var(--second);
 }
 
 .project-collection-list-container {
@@ -6970,7 +6967,7 @@ figcaption {
     -ms-flex-align: center;
     align-items: center;
     border-radius: 46px;
-    background-color: #fffad3;
+    background-color: var(--second);
     text-align: center;
 }
 
@@ -7147,7 +7144,7 @@ figcaption {
 }
 
 .green-text {
-    color: #83f570;
+    color: var(--primary);
     font-size: 32px;
 }
 
@@ -7344,7 +7341,7 @@ figcaption {
 
 .about-me-name-holder {
     min-width: 340px;
-    color: #fffad3;
+    color: var(--second);
     font-size: 132px;
 }
 
@@ -7386,7 +7383,7 @@ figcaption {
 }
 
 .years {
-    color: #fffad3;
+    color: var(--second);
     font-size: 82px;
 }
 
@@ -7427,8 +7424,8 @@ figcaption {
     margin-bottom: 100px;
     padding-top: 90px;
     padding-bottom: 90px;
-    border-top: 1px solid #83f570;
-    border-bottom: 1px solid #83f570;
+    border-top: 1px solid var(--primary);
+    border-bottom: 1px solid var(--primary);
 }
 
 .worked-with---holder {
@@ -7583,11 +7580,11 @@ figcaption {
 }
 
 .award-list:hover {
-    border-bottom-color: #83f570;
+    border-bottom-color: var(--primary);
     -webkit-transform: translate(0px, -4px) skew(-12deg, 0deg);
     -ms-transform: translate(0px, -4px) skew(-12deg, 0deg);
     transform: translate(0px, -4px) skew(-12deg, 0deg);
-    color: #83f570;
+    color: var(--primary);
 }
 
 .award-title-wrapper {
@@ -7716,7 +7713,7 @@ figcaption {
 }
 
 .blog-name-holder {
-    color: #fffad3;
+    color: var(--second);
     font-size: 32px;
 }
 
@@ -7751,7 +7748,7 @@ figcaption {
 .blog-hover-state-container {
     width: 100%;
     height: 100%;
-    border: 1px solid #83f570;
+    border: 1px solid var(--primary);
     -webkit-transform: rotate(1.3deg);
     -ms-transform: rotate(1.3deg);
     transform: rotate(1.3deg);
@@ -7761,7 +7758,7 @@ figcaption {
     position: absolute;
     width: 100%;
     height: 100%;
-    border: 1px solid #83f570;
+    border: 1px solid var(--primary);
     -webkit-transform: rotate(-2deg);
     -ms-transform: rotate(-2deg);
     transform: rotate(-2deg);
@@ -7941,7 +7938,7 @@ figcaption {
 }
 
 .footer-link:hover {
-    color: #83f570;
+    color: var(--primary);
 }
 
 .footer-copyright-section-holder {
@@ -8146,7 +8143,7 @@ figcaption {
 }
 
 .blog-body-title-holder {
-    color: #fffad3;
+    color: var(--second);
     font-size: 32px;
 }
 
@@ -8242,7 +8239,7 @@ figcaption {
     transform: translate3d(0px, 0px, -20px);
     color: #000;
     font-size: 132px;
-    text-shadow: 0 -1px 0 #83f570, -1px 0 0 #83f570, 0 1px 0 #83f570, 1px 0 0 #83f570;
+    text-shadow: 0 -1px 0 var(--primary), -1px 0 0 var(--primary), 0 1px 0 var(--primary), 1px 0 0 var(--primary);
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
 }
@@ -8258,7 +8255,7 @@ figcaption {
     transform: translate3d(0px, 0px, -40px);
     color: #000;
     font-size: 132px;
-    text-shadow: 0 -1px 0 #83f570, -1px 0 0 #83f570, 0 1px 0 #83f570, 1px 0 0 #83f570;
+    text-shadow: 0 -1px 0 var(--primary), -1px 0 0 var(--primary), 0 1px 0 var(--primary), 1px 0 0 var(--primary);
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
 }
@@ -8315,7 +8312,7 @@ figcaption {
     width: 100%;
     margin: 5px;
     padding: 40px;
-    background-color: #fffad3;
+    background-color: var(--second);
 }
 
 .field-label {
@@ -8370,7 +8367,7 @@ figcaption {
 }
 
 .text-field.dark-mode:focus {
-    border-color: #83f570;
+    border-color: var(--primary);
 }
 
 .text-field.dark-mode-blog {
@@ -8381,7 +8378,7 @@ figcaption {
 }
 
 .text-field.dark-mode-blog:focus {
-    border-color: #83f570;
+    border-color: var(--primary);
 }
 
 .text-field.dark-mode-blog::-webkit-input-placeholder {
@@ -8572,7 +8569,7 @@ figcaption {
 .button-hover-state-container {
     width: 100%;
     height: 100%;
-    border: 1px solid #83f570;
+    border: 1px solid var(--primary);
     -webkit-transform: rotate(1.3deg);
     -ms-transform: rotate(1.3deg);
     transform: rotate(1.3deg);
@@ -8588,7 +8585,7 @@ figcaption {
     position: absolute;
     width: 100%;
     height: 100%;
-    border: 1px solid #83f570;
+    border: 1px solid var(--primary);
     -webkit-transform: rotate(-2deg);
     -ms-transform: rotate(-2deg);
     transform: rotate(-2deg);
@@ -8776,7 +8773,7 @@ figcaption {
 }
 
 .social-media-link-container:hover {
-    color: #83f570;
+    color: var(--primary);
 }
 
 .text-block {
@@ -9019,13 +9016,13 @@ figcaption {
     position: absolute;
     width: 100%;
     height: 1px;
-    background-color: #83f570;
+    background-color: var(--primary);
 }
 
 .nav-link-underline-02 {
     width: 100%;
     height: 1px;
-    background-color: #83f570;
+    background-color: var(--primary);
 }
 
 .blog-form-holder {
@@ -9110,7 +9107,7 @@ figcaption {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    color: #fffad3;
+    color: var(--second);
     font-size: 54px;
     font-weight: 400;
 }
@@ -9161,7 +9158,7 @@ figcaption {
 }
 
 .product-name-holder {
-    color: #fffad3;
+    color: var(--second);
     font-size: 132px;
     line-height: 0.9;
 }
@@ -9259,7 +9256,7 @@ figcaption {
 }
 
 .card-title {
-    color: #fffad3;
+    color: var(--second);
     font-size: 64px;
     font-weight: 400;
 }
@@ -9310,7 +9307,7 @@ figcaption {
 }
 
 .product-title-cart {
-    color: #fffad3;
+    color: var(--second);
     font-size: 32px;
     font-weight: 400;
 }
@@ -9374,7 +9371,7 @@ figcaption {
 
 .remove-button {
     font-family: Inter, sans-serif;
-    color: #fffad3;
+    color: var(--second);
     font-size: 18px;
     text-decoration: underline;
 }
@@ -9388,7 +9385,7 @@ figcaption {
 }
 
 .cart-line-item {
-    color: #fffad3;
+    color: var(--second);
     font-size: 32px;
     font-weight: 400;
 }
@@ -9420,7 +9417,7 @@ figcaption {
 
 .required {
     font-family: Inter, sans-serif;
-    color: #fffad3;
+    color: var(--second);
     font-size: 16px;
     font-weight: 400;
 }
@@ -9442,11 +9439,11 @@ figcaption {
 }
 
 .text-field-normal:focus {
-    border-color: #83f570;
+    border-color: var(--primary);
 }
 
 .text-field-normal.-wfp-focus {
-    border-color: #83f570;
+    border-color: var(--primary);
 }
 
 .checkbox {
@@ -9454,7 +9451,7 @@ figcaption {
 }
 
 .cart-price {
-    color: #fffad3;
+    color: var(--second);
     font-size: 32px;
 }
 
@@ -9473,7 +9470,7 @@ figcaption {
 }
 
 .line-item {
-    color: #fffad3;
+    color: var(--second);
     font-size: 30px;
 }
 
@@ -9569,7 +9566,7 @@ figcaption {
     grid-column-gap: 10px;
     grid-row-gap: 10px;
     font-family: Inter, sans-serif;
-    color: #fffad3;
+    color: var(--second);
     font-size: 24px;
 }
 
