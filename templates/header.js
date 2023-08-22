@@ -16,7 +16,7 @@ class HeaderTemplate extends HTMLElement {
                                         <div class="nav-link-underline-01"></div>
                                     </div>
                                 </a>
-                                <a href="/about" class="nav-link-text-holder w-inline-block">
+                                <a href="/about.html" class="nav-link-text-holder w-inline-block">
                                     <div class="nav-link-text">About</div>
                                     <div class="nav-link-underline-holder">
                                         <div class="nav-link-underline-02"></div>
@@ -33,7 +33,7 @@ class HeaderTemplate extends HTMLElement {
                             </div><a href="/" aria-current="page" class="brand hide-mobile w-nav-brand w--current"><img src="assets/img/logo.svg" loading="lazy" alt="" class="brand-image"/></a>
                             <div
                                 class="nav-link-wrapper right">
-                                <a href="/blog" class="nav-link-text-holder w-inline-block">
+                                <a href="https://blog.prozukty.com/profile/mi_blog" target="_blank" class="nav-link-text-holder w-inline-block">
                                     <div class="nav-link-text">Blog</div>
                                     <div class="nav-link-underline-holder">
                                         <div class="nav-link-underline-02"></div>
