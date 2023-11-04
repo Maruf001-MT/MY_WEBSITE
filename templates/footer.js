@@ -4,7 +4,7 @@ class FooterTemplate extends HTMLElement {
       
       <div class="footer">
         <div class="container">
-            <div class="footer-top-holder"><a href="/" aria-current="page" class="footer-logo-holder w-inline-block w--current"><img src="assets/img/logo.svg" loading="lazy" alt="" class="footer-logo"/></a>
+            <div class="footer-top-holder"><a href="/" aria-current="page" class="footer-logo-holder w-inline-block w--current"><img src="https://drive.prozukty.com/share/UGgw6NqfnDwnVtN7" loading="lazy" alt="" class="footer-logo"/></a>
                 <div
                     class="footer-link-holder"><a href="/work" class="footer-link">Projects</a><a href="/about" class="footer-link">About</a><a href="/blog" class="footer-link">Blog</a><a href="/contact" class="footer-link">Contact</a>
                     </div>

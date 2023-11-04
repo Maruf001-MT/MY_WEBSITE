@@ -4,7 +4,7 @@ class HeaderTemplate extends HTMLElement {
       
       <div data-animation="default" class="navbar w-nav" data-easing2="ease" data-easing="ease" data-collapse="medium" role="banner" data-no-scroll="1" data-duration="500" data-doc-height="1">
             <div class="container nav-container">
-                <div class="nav-menu-container"><a href="/" aria-current="page" class="brand show-mobile w-nav-brand w--current"><img src="assets/img/logo.svg" loading="lazy" alt="" class="brand-image"/></a>
+                <div class="nav-menu-container"><a href="/" aria-current="page" class="brand show-mobile w-nav-brand w--current"><img src="https://drive.prozukty.com/share/UGgw6NqfnDwnVtN7" loading="lazy" alt="" class="brand-image"/></a>
                     <nav
                         role="navigation" class="nav-menu w-nav-menu">
                         <div class="nav-link">
@@ -30,7 +30,7 @@ class HeaderTemplate extends HTMLElement {
                                         <div class="nav-link-underline-01"></div>
                                     </div>
                                 </a>
-                            </div><a href="/" aria-current="page" class="brand hide-mobile w-nav-brand w--current"><img src="assets/img/logo.svg" loading="lazy" alt="" class="brand-image"/></a>
+                            </div><a href="/" aria-current="page" class="brand hide-mobile w-nav-brand w--current"><img src="https://drive.prozukty.com/share/UGgw6NqfnDwnVtN7" loading="lazy" alt="" class="brand-image"/></a>
                             <div
                                 class="nav-link-wrapper right">
                                 <a href="https://blog.prozukty.com/profile/mi_blog" target="_blank" class="nav-link-text-holder w-inline-block">

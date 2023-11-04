@@ -6227,7 +6227,7 @@ figcaption {
 
 .display-2 {
     color: var(--second);
-    font-size: 132px;
+    font-size: 90px;
     line-height: 1;
 }
 
@@ -8238,7 +8238,7 @@ figcaption {
     -webkit-transform: translate3d(0px, 0px, -20px);
     transform: translate3d(0px, 0px, -20px);
     color: #000;
-    font-size: 132px;
+    font-size: 90px;
     text-shadow: 0 -1px 0 var(--primary), -1px 0 0 var(--primary), 0 1px 0 var(--primary), 1px 0 0 var(--primary);
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
@@ -8254,7 +8254,7 @@ figcaption {
     -webkit-transform: translate3d(0px, 0px, -40px);
     transform: translate3d(0px, 0px, -40px);
     color: #000;
-    font-size: 132px;
+    font-size: 92px;
     text-shadow: 0 -1px 0 var(--primary), -1px 0 0 var(--primary), 0 1px 0 var(--primary), 1px 0 0 var(--primary);
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
