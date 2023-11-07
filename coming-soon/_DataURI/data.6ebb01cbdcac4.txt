@@ -1,0 +1,1 @@
+chrome-extension://pfnlgphmiaoifnibdpneedbodehafgek/crypto-js.min.js
