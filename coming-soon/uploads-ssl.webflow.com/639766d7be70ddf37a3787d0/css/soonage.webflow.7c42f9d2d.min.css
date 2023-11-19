@@ -1,6 +1,3 @@
-:root{
-    --primary: #2ff1ff;
-}
 html {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
@@ -2278,9 +2275,9 @@ p {
 }
 
 .button-primary {
-    color: var(--primary);
+    color: #b2e24b;
     background-color: #1d252c;
-    border: 1px solid var(--primary);
+    border: 1px solid #b2e24b;
     border-radius: 40px;
     flex: 0 auto;
     padding: 18px 30px;
@@ -2293,7 +2290,7 @@ p {
 
 .button-primary:hover {
     color: #1d252c;
-    background-color: var(--primary)
+    background-color: #b2e24b
 }
 
 .button-primary.button-in-menu {
@@ -2367,7 +2364,7 @@ p {
 
 .submit-button:hover {
     color: #1d252c;
-    background-color: var(--primary)
+    background-color: #b2e24b
 }
 
 .hero-cubes-wrap {
@@ -2399,7 +2396,7 @@ p {
 .success-message {
     max-width: 600px;
     color: #1d252c;
-    background-color: var(--primary);
+    background-color: #b2e24b;
     border-radius: 60px;
     padding-top: 15px;
     padding-bottom: 15px
@@ -2524,7 +2521,7 @@ p {
 
 .sliding-text-right {
     height: 46px;
-    background-color: var(--primary);
+    background-color: #b2e24b;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -2533,7 +2530,7 @@ p {
 
 .button-secondary {
     color: #1d252c;
-    background-color: var(--primary);
+    background-color: #b2e24b;
     border: 1px solid #1d252c;
     border-radius: 40px;
     flex: 0 auto;
@@ -2546,9 +2543,9 @@ p {
 }
 
 .button-secondary:hover {
-    color: var(--primary);
+    color: #b2e24b;
     background-color: #1d252c;
-    border-color: var(--primary)
+    border-color: #b2e24b
 }
 
 .button-secondary.hide-portrait {
@@ -2712,7 +2709,7 @@ p {
     min-height: 100vh;
     -webkit-backdrop-filter: blur(44px);
     backdrop-filter: blur(44px);
-    background-color: var(--primary);
+    background-color: #b2e24b;
     background-image: url(https://uploads-ssl.webflow.com/639766d7be70ddf37a3787d0/639965a9d142ea16f815a43e_Background%20White%20Noise%20Grid.png);
     background-position: 0 0;
     background-size: 222px;
@@ -3045,7 +3042,7 @@ p {
 .left-eye-ex-6 {
     width: 36px;
     height: 36px;
-    background-color: var(--primary);
+    background-color: #b2e24b;
     border-radius: 40px;
     justify-content: center;
     align-items: center;
@@ -3077,7 +3074,7 @@ p {
 .right-eye-ex-6 {
     width: 36px;
     height: 36px;
-    background-color: var(--primary);
+    background-color: #b2e24b;
     border-radius: 40px;
     justify-content: center;
     align-items: center;
@@ -3111,7 +3108,7 @@ p {
     min-height: 100vh;
     -webkit-backdrop-filter: blur(44px);
     backdrop-filter: blur(44px);
-    background-color: var(--primary);
+    background-color: #b2e24b;
     background-image: url(https://uploads-ssl.webflow.com/639766d7be70ddf37a3787d0/639ce7f738e93fbfcdd5be80_Noise%20Background.png);
     background-position: 0 0;
     background-size: 1440px;
@@ -3174,7 +3171,7 @@ p {
     height: 60px;
     color: #a5a8ab;
     letter-spacing: -.3px;
-    background-color: var(--primary);
+    background-color: #b2e24b;
     border: 1px solid #41464a;
     border-radius: 60px;
     margin-bottom: 0;
@@ -3211,7 +3208,7 @@ p {
     min-height: 100vh;
     -webkit-backdrop-filter: blur(44px);
     backdrop-filter: blur(44px);
-    background-color: var(--primary);
+    background-color: #b2e24b;
     justify-content: center;
     align-items: center;
     padding: 100px 5%;
@@ -3433,7 +3430,7 @@ p {
 
 .button-tertiary {
     color: #1d252c;
-    background-color: var(--primary);
+    background-color: #b2e24b;
     border: 1px solid #1d252c;
     border-radius: 40px;
     flex: 0 auto;
@@ -3446,9 +3443,9 @@ p {
 }
 
 .button-tertiary:hover {
-    color: var(--primary);
+    color: #b2e24b;
     background-color: #1d252c;
-    border-color: var(--primary)
+    border-color: #b2e24b
 }
 
 .button-tertiary.hide-portrait {
@@ -3563,8 +3560,8 @@ p {
 
 .submit-button-ex-1:hover {
     color: #1d252c;
-    background-color: var(--primary);
-    border-color: var(--primary)
+    background-color: #b2e24b;
+    border-color: #b2e24b
 }
 
 .submit-button-ex-3 {
@@ -3580,8 +3577,8 @@ p {
 
 .submit-button-ex-3:hover {
     color: #1d252c;
-    background-color: var(--primary);
-    border-color: var(--primary)
+    background-color: #b2e24b;
+    border-color: #b2e24b
 }
 
 .submit-button-ex-5 {
@@ -3597,8 +3594,8 @@ p {
 
 .submit-button-ex-5:hover {
     color: #1d252c;
-    background-color: var(--primary);
-    border-color: var(--primary)
+    background-color: #b2e24b;
+    border-color: #b2e24b
 }
 
 .submit-button-ex-6 {
@@ -3614,8 +3611,8 @@ p {
 
 .submit-button-ex-6:hover {
     color: #1d252c;
-    background-color: var(--primary);
-    border-color: var(--primary)
+    background-color: #b2e24b;
+    border-color: #b2e24b
 }
 
 .submit-button-ex-7 {
@@ -3631,8 +3628,8 @@ p {
 
 .submit-button-ex-7:hover {
     color: #1d252c;
-    background-color: var(--primary);
-    border-color: var(--primary)
+    background-color: #b2e24b;
+    border-color: #b2e24b
 }
 
 .submit-button-ex-8 {
@@ -3647,7 +3644,7 @@ p {
 }
 
 .submit-button-ex-8:hover {
-    color: var(--primary);
+    color: #b2e24b;
     background-color: #1d252c;
     border-color: #1d252c
 }
@@ -3664,7 +3661,7 @@ p {
 }
 
 .submit-button-ex-9:hover {
-    color: var(--primary);
+    color: #b2e24b;
     background-color: #1d252c;
     border-color: #1d252c
 }
@@ -3815,7 +3812,7 @@ p {
 }
 
 .link.white:hover {
-    color: var(--primary)
+    color: #b2e24b
 }
 
 .footer-links {
@@ -3904,7 +3901,7 @@ p {
 }
 
 .changelog-block {
-    background-color: var(--primary);
+    background-color: #b2e24b;
     margin-top: 50px;
     margin-bottom: 30px;
     padding: 30px
@@ -3994,7 +3991,7 @@ p {
 }
 
 .unsplash-link-text {
-    color: var(--primary);
+    color: #b2e24b;
     text-decoration: none;
     transition: all .2s
 }
@@ -4056,7 +4053,7 @@ p {
 }
 
 .footer-link-licenses.w--current {
-    color: var(--primary);
+    color: #b2e24b;
     text-decoration: underline
 }
 
@@ -4081,7 +4078,7 @@ p {
 }
 
 .heading-green {
-    color: var(--primary)
+    color: #b2e24b
 }
 
 ._2-eyes-wrapper {
@@ -4105,7 +4102,7 @@ p {
 .success-message-2 {
     max-width: 600px;
     color: #1d252c;
-    background-color: var(--primary);
+    background-color: #b2e24b;
     border: 1px solid #1d252c;
     border-radius: 60px;
     padding-top: 15px;
@@ -4277,7 +4274,7 @@ p {
         display: flex
     }
     .nav-menu-links.light {
-        background-color: var(--primary)
+        background-color: #b2e24b
     }
     .hero-content-ex-1 {
         z-index: 10;
@@ -4655,7 +4652,7 @@ p {
     }
     .menu-button-burger-light.w--open {
         color: #a5a8ab;
-        background-color: var(--primary);
+        background-color: #b2e24b;
         border: 1px #fff;
         border-top-left-radius: 18px;
         border-top-right-radius: 18px;

@@ -1,4 +1,10 @@
-
+/*!
+ * Webflow: Front-end site library
+ * @license MIT
+ * Inline scripts may access the api using an async handler:
+ *   var Webflow = Webflow || [];
+ *   Webflow.push(readyFunction);
+ */
 
 (() => {
     var u = (e, t) => () => (t || e((t = {
@@ -1087,15 +1093,15 @@ __p+='`), U
                 e(f).attr("style", g ? "display: none !important;" : "")
             }
 
-            // function p() {
-            //     var g = e('<a class="w-webflow-badge"></a>').attr("href", "https://webflow.com?utm_campaign=brandjs"),
-            //         S = e("<img>").attr("src", "https://d3e54v103j8qbb.cloudfront.net/img/webflow-badge-icon.f67cd735e3.svg").attr("alt", "").css({
-            //             marginRight: "8px",
-            //             width: "16px"
-            //         }),
-            //         b = e("<img>").attr("src", "https://d1otoma47x30pg.cloudfront.net/img/webflow-badge-text.6faa6a38cd.svg").attr("alt", "Made in Webflow");
-            //     return g.append(S, b), g[0]
-            // }
+            function p() {
+                var g = e('<a class="w-webflow-badge"></a>').attr("href", "https://webflow.com?utm_campaign=brandjs"),
+                    S = e("<img>").attr("src", "https://d3e54v103j8qbb.cloudfront.net/img/webflow-badge-icon.f67cd735e3.svg").attr("alt", "").css({
+                        marginRight: "8px",
+                        width: "16px"
+                    }),
+                    b = e("<img>").attr("src", "https://d1otoma47x30pg.cloudfront.net/img/webflow-badge-text.6faa6a38cd.svg").attr("alt", "Made in Webflow");
+                return g.append(S, b), g[0]
+            }
 
             function h() {
                 var g = i.children(o),
@@ -1717,7 +1723,7 @@ __p+='`), U
         var gI = $e(),
             _I = 0,
             yI = Math.random(),
-            mI = gI(1 .toString);
+            mI = gI(1.toString);
         Ku.exports = function(e) {
             return "Symbol(" + (e === void 0 ? "" : e) + ")_" + mI(++_I + yI, 36)
         }
@@ -3181,7 +3187,7 @@ __p+='`), U
             if (!Array.isArray(t) && Ef(vf), e != null) {
                 for (var r = e, n = 0; n < t.length; n++) {
                     var i = t[n];
-                    if (r = r ?.[i], r === void 0) return r
+                    if (r = r ? .[i], r === void 0) return r
                 }
                 return r
             }
@@ -3189,7 +3195,7 @@ __p+='`), U
 
         function qn(e, t, r) {
             var n = typeof t == "number" ? [] : {},
-                i = e ?? n;
+                i = e ? ? n;
             if (i[t] === r) return i;
             var o = Cn(i);
             return o[t] = r, o
@@ -3211,7 +3217,7 @@ __p+='`), U
         }
 
         function Sf(e, t, r) {
-            var n = e ?.[t],
+            var n = e ? .[t],
                 i = r(n);
             return qn(e, t, i)
         }
@@ -3637,7 +3643,7 @@ __p+='`), U
     });
     var pd = u((wH, dd) => {
         function pw(e, t) {
-            return e ?.[t]
+            return e ? .[t]
         }
         dd.exports = pw
     });
@@ -4128,7 +4134,7 @@ __p+='`), U
 
         function RC(e, t) {
             var r = typeof e;
-            return t = t ?? AC, !!t && (r == "number" || r != "symbol" && wC.test(e)) && e > -1 && e % 1 == 0 && e < t
+            return t = t ? ? AC, !!t && (r == "number" || r != "symbol" && wC.test(e)) && e > -1 && e % 1 == 0 && e < t
         }
         Mp.exports = RC
     });
@@ -4725,7 +4731,7 @@ __p+='`), U
     var Sa = u((tk, EE) => {
         function Fx(e) {
             return function(t) {
-                return t ?.[e]
+                return t ? .[e]
             }
         }
         EE.exports = Fx
@@ -6612,7 +6618,7 @@ __p+='`), U
                     duration: x,
                     delay: A
                 } = c.config;
-                p != null && (x = p), A = h ?? A, a === nF ? x = 0 : (o || S) && (x = A = 0);
+                p != null && (x = p), A = h ? ? A, a === nF ? x = 0 : (o || S) && (x = A = 0);
                 let {
                     now: w
                 } = t.payload;
